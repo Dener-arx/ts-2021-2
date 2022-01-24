@@ -47,4 +47,3 @@ Casos de Teste
 | CT17 | nota1 = 3, nota2 = 2, faltas = 4 | Reprovado por Média | CE02, CE04, CE08, CE10, CE15, CE17 |
 | CT18 | nota1 = 3, nota2 = 5, faltas = 4 | Recuperação         | CE02, CE04, CE08, CE10, CE15, CE18 |
 | CT19 | nota1 = 6, nota2 = 8, faltas = 4 | Aprovado            | CE02, CE04, CE08, CE10, CE15, CE19 |
-
