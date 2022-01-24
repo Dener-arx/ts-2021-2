@@ -28,31 +28,31 @@ Casos de Teste
 *Considerando cargaHoraria = 64
 
 |  CT  |          Valor de Entrada       	      |  Resultado Esperado  |        Classe Equivalência         |
-| CT01 | nota1 = -0,01 				                  | Valor Inválido       | CE01, CE05			                    |
-| CT02 | nota1 = 0 				                      | OK                   | CE02, CE04			                    |
-| CT03 | nota1 = 10 				                    | OK                   | CE02, CE04			                    |
-| CT04 | nota1 = 10,01 				                  | Valor Inválido       | CE03, CE05			                    |
-| CT05 | nota1 = 5,5 				                    | OK                   | CE02, CE04			                    |
-| CT06 | nota1 = 5,55 				                  | OK                   | CE02, CE05			                    |
-| CT07 | nota1 = 5,555 				                  | Valor Inválido       | CE02, CE06			                    |
-| CT08 | nota2 = -0,01				                  | Valor Inválido       | CE07, CE11			                    |
-| CT09 | nota2 = 0 				                      | OK                   | CE08, CE10			                    |
-| CT10 | nota2 = 10 				                    | OK                   | CE08, CE10			                    |
-| CT11 | nota2 = 10,01 				                  | Valor Inválido       | CE09, CE11			                    |
-| CT12 | nota2 = 7,7 				                    | OK                   | CE08, CE10 			                  |
-| CT13 | nota2 = 7,77 				                  | OK 		               | CE08, CE11			                    |
-| CT14 | nota2 = 7,777			                  	| Valor Inválido       | CE08, CE12			                    |
-| CT15 | faltas = -1 				                    | Valor Inválido       | CE13				                        |
-| CT16 | faltas = 0 				                    | OK 		               | CE15				                        |
-| CT17 | faltas = 16 				                    | OK 		               | CE15				                        |
-| CT18 | faltas = 17 				                    | Reprovado por Faltas | CE16				                        |
-| CT19 | faltas = 64 	                    			| Reprovado por Faltas | CE16				                        |
-| CT20 | faltas = 65 				                    | Valor Inválido       | CE14				                        |
+| CT01 | nota1 = -0,01 				                  | Valor Inválido       | CE01, CE05                         |
+| CT02 | nota1 = 0 				                      | OK                   | CE02, CE04                         |
+| CT03 | nota1 = 10 				                    | OK                   | CE02, CE04                         |
+| CT04 | nota1 = 10,01 				                  | Valor Inválido       | CE03, CE05                         |
+| CT05 | nota1 = 5,5 				                    | OK                   | CE02, CE04                         |
+| CT06 | nota1 = 5,55 				                  | OK                   | CE02, CE05                         |
+| CT07 | nota1 = 5,555 				                  | Valor Inválido       | CE02, CE06                         |
+| CT08 | nota2 = -0,01				                  | Valor Inválido       | CE07, CE11                         |
+| CT09 | nota2 = 0 				                      | OK                   | CE08, CE10                         |
+| CT10 | nota2 = 10 				                    | OK                   | CE08, CE10                         |
+| CT11 | nota2 = 10,01 				                  | Valor Inválido       | CE09, CE11                         |
+| CT12 | nota2 = 7,7 				                    | OK                   | CE08, CE10                         |
+| CT13 | nota2 = 7,77 				                  | OK 		               | CE08, CE11                         |
+| CT14 | nota2 = 7,777			                  	| Valor Inválido       | CE08, CE12                         |
+| CT15 | faltas = -1 				                    | Valor Inválido       | CE13                               |
+| CT16 | faltas = 0 				                    | OK 		               | CE15                               |
+| CT17 | faltas = 16 				                    | OK 		               | CE15                               |
+| CT18 | faltas = 17 				                    | Reprovado por Faltas | CE16                               |
+| CT19 | faltas = 64 	                    			| Reprovado por Faltas | CE16                               |
+| CT20 | faltas = 65                            | Valor Inválido       | CE14                               |
 | CT21 | nota1 = 0, nota2 = 0, faltas = 4       | Reprovado por Média  | CE02, CE04, CE08, CE10, CE15, CE17 |
 | CT22 | nota1 = 2,99, nota2 = 2,99, faltas = 4 | Reprovado por Média  | CE02, CE05, CE08, CE11, CE15, CE17 |
 | CT23 | nota1 = 3, nota2 = 3, faltas = 4       | Recuperação 	       | CE02, CE04, CE08, CE10, CE15, CE18 |
 | CT24 | nota1 = 5,99, nota2 = 5,99, faltas = 4 | Recuperação	         | CE02, CE05, CE08, CE11, CE15, CE18 |
-| CT25 | nota1 = 6, nota2 = 6, faltas = 4       | Aprovado 	           | CE02, CE04, CE08, CE10, CE15, CE19 |
+| CT25 | nota1 = 6, nota2 = 6, faltas = 4       | Aprovado             | CE02, CE04, CE08, CE10, CE15, CE19 |
 | CT26 | nota1 = 10, nota2 = 10, faltas = 4     | Aprovado             | CE02, CE04, CE08, CE10, CE15, CE19 |
 
 
