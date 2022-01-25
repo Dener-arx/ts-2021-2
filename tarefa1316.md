@@ -1,6 +1,6 @@
 ## Tarefa 004 - 19/01/2022 - Análise do Valor Limte - Definição de casos de testes.
 
-Classes de Equivalência
+**Classes de Equivalência**
 
 |  ID  |           Descrição                          | V/I |
 |--|----|---|
@@ -25,7 +25,8 @@ Classes de Equivalência
 | CE19 | 6 <= (nota1+nota2)/2 <= 10                   | V   |
 
 
-Casos de Teste
+**Casos de Teste**
+
 *Considerando cargaHoraria = 64
 
 |  CT  |          Valor de Entrada              |  Resultado Esperado  |        Classe Equivalência         |
