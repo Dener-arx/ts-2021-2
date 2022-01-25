@@ -27,7 +27,7 @@ Classes de Equivalência
 Casos de Teste
 *Considerando cargaHoraria = 64
 
-|  CT  |          Valor de Entrada       	      |  Resultado Esperado  |        Classe Equivalência         |
+|  CT  |          Valor de Entrada              |  Resultado Esperado  |        Classe Equivalência         |
 | CT01 | nota1 = -0,01                          | Valor Inválido       | CE01, CE05                         |
 | CT02 | nota1 = 0                              | OK                   | CE02, CE04                         |
 | CT03 | nota1 = 10                             | OK                   | CE02, CE04                         |
@@ -54,3 +54,5 @@ Casos de Teste
 | CT24 | nota1 = 5,99, nota2 = 5,99, faltas = 4 | Recuperação          | CE02, CE05, CE08, CE11, CE15, CE18 |
 | CT25 | nota1 = 6, nota2 = 6, faltas = 4       | Aprovado             | CE02, CE04, CE08, CE10, CE15, CE19 |
 | CT26 | nota1 = 10, nota2 = 10, faltas = 4     | Aprovado             | CE02, CE04, CE08, CE10, CE15, CE19 |
+
+
