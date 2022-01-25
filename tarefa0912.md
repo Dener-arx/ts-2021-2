@@ -3,6 +3,7 @@
 Classes de Equivalência
 
 |  ID  |           Descrição                          | V/I |
+|--|----|---|
 | CE01 | nota1 < 0                                    | I   |
 | CE02 | 0 <= nota1 <= 10                             | V   |
 | CE03 | nota1 > 10                                   | I   |
