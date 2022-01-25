@@ -26,7 +26,7 @@
 
 
 
-**Casos de Teste**
+**Casos de Teste** <br/>
 *Considerando cargaHoraria = 64
 
 |  CT  |          Valor de Entrada              |  Resultado Esperado  |        Classe Equivalência         |
