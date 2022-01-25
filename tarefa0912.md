@@ -30,6 +30,7 @@
 *Considerando cargaHoraria = 64
 
 |  CT  |          Valor de Entrada        | Resultado Esperado  |       Classe Equivalência          |
+|--|---|---|---|
 | CT01 | nota1 = -2                       | Valor Inválido      | CE01, CE04                         |
 | CT02 | nota1 = 5                        | OK                  | CE02, CE04                         |
 | CT03 | nota1 = 15                       | Valor Inválido      | CE03, CE04                         |
