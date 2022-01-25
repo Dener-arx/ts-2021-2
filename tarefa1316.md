@@ -25,8 +25,8 @@
 | CE19 | 6 <= (nota1+nota2)/2 <= 10                   | V   |
 
 
-**Casos de Teste**
 
+**Casos de Teste**
 *Considerando cargaHoraria = 64
 
 |  CT  |          Valor de Entrada              |  Resultado Esperado  |        Classe Equivalência         |
