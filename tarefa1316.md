@@ -51,9 +51,6 @@ Casos de Teste
 | CT21 | nota1 = 0, nota2 = 0, faltas = 4       | Reprovado por Média  | CE02, CE04, CE08, CE10, CE15, CE17 |
 | CT22 | nota1 = 2,99, nota2 = 2,99, faltas = 4 | Reprovado por Média  | CE02, CE05, CE08, CE11, CE15, CE17 |
 | CT23 | nota1 = 3, nota2 = 3, faltas = 4       | Recuperação 	       | CE02, CE04, CE08, CE10, CE15, CE18 |
-| CT24 | nota1 = 5,99, nota2 = 5,99, faltas = 4 | Recuperação	         | CE02, CE05, CE08, CE11, CE15, CE18 |
+| CT24 | nota1 = 5,99, nota2 = 5,99, faltas = 4 | Recuperação          | CE02, CE05, CE08, CE11, CE15, CE18 |
 | CT25 | nota1 = 6, nota2 = 6, faltas = 4       | Aprovado             | CE02, CE04, CE08, CE10, CE15, CE19 |
 | CT26 | nota1 = 10, nota2 = 10, faltas = 4     | Aprovado             | CE02, CE04, CE08, CE10, CE15, CE19 |
-
-
-
