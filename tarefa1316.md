@@ -3,6 +3,7 @@
 Classes de Equivalência
 
 |  ID  |           Descrição                          | V/I |
+|--|----|---|
 | CE01 | nota1 < 0                                    | I   |
 | CE02 | 0 <= nota1 <= 10                             | V   |
 | CE03 | nota1 > 10                                   | I   |
@@ -28,6 +29,7 @@ Casos de Teste
 *Considerando cargaHoraria = 64
 
 |  CT  |          Valor de Entrada              |  Resultado Esperado  |        Classe Equivalência         |
+|--|---|---|---|
 | CT01 | nota1 = -0,01                          | Valor Inválido       | CE01, CE05                         |
 | CT02 | nota1 = 0                              | OK                   | CE02, CE04                         |
 | CT03 | nota1 = 10                             | OK                   | CE02, CE04                         |
