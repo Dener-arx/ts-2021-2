@@ -14,7 +14,7 @@
 
 2. Solicita-se:
    1. Geração do grafo de causa e efeito para representar este cenário.
-      1. Anexar a este arquivo a imagem do grafo.
+      >![Image](https://github.com/Dener-arx/ts-2021-2/blob/main/images/Grafo%20Causa%20e%20Efeito.png)
    2. Geração da tabela de decisão para representar o cenário.
       1. Editar este arquivo e adicionar a tabela de decisão.
    3. Geração do conjunto de casos de teste suficientes para cobrir todos os cenários, constantes do grafo e da tabela de decisão.
