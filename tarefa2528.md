@@ -16,7 +16,7 @@
    1. Geração do grafo de causa e efeito para representar este cenário.
       >![Image](https://github.com/Dener-arx/ts-2021-2/blob/main/images/Grafo%20Causa%20e%20Efeito.png)
    2. Geração da tabela de decisão para representar o cenário.
-      1. Editar este arquivo e adicionar a tabela de decisão.
+      >![Image](https://github.com/Dener-arx/ts-2021-2/blob/main/images/Tabela%20de%20Decis%C3%A3o.png)
    3. Geração do conjunto de casos de teste suficientes para cobrir todos os cenários, constantes do grafo e da tabela de decisão.
       1. Editar este arquivo e adicionar a tabela com os casos de teste, conforme exemplos disponibilizados em tarefas anteriores.
    4. Em relação aos casos de teste, considere o valor do seguro de R$ 2.000,00 (Dois mil reais). Desta forma, o valor esperado, do resultado do caso de teste, deve ser o valor líquido a ser pago. Ou seja, o prêmio deduzido do valor correspondente ao percentual do desconto obtido pelo cliente.
