@@ -21,16 +21,38 @@
       1. Editar este arquivo e adicionar a tabela com os casos de teste, conforme exemplos disponibilizados em tarefas anteriores.
       
       **Classes de Equivalência**
-
+      
+         *Foi considerado como idade minima para adquirir seguro 18 anos, e como limite de entrada 99 anos.*
          |  ID  |           Descrição                          | V/I |
-         |  --  |             ----                             | --- |
+         |--|----|---|
          | CE01 | Sexo = Feminino                              | V   |
          | CE02 | Sexo = Masculino                             | V   |
-         | CE03 | Idade < 25                                   | V   |
-         | CE04 | Idade = 25                                   | V   |
-         | CE05 | Idade > 25                                   | V   |
-         | CE06 | Estado Civil = Solteiro                      | V   |
-         | CE07 | Estado Civil = Casado                        | V   |
+         | CE03 | Idade < 18                                   | I   |
+         | CE03 | 18 <= Idade <= 25                            | V   |
+         | CE05 | 25 < Idade < 100                             | V   |
+         | CE06 | Estado Civil = Solteiro(a)                   | V   |
+         | CE07 | Estado Civil = Casado(a)                     | V   |
+         
+       
+      **Casos de Teste**
+
+         |  CT  |          Valor de Entrada                                |  Resultado Esperado  |        Classe Equivalência         |
+         |--|---|---|---|
+         | CT01 | Sexo = Feminino                                          |           | CE01, CE05                         |
+         | CT01 | Sexo = Masculino                                         | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Idade = 17                                               | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Idade = 18                                               | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Idade = 25                                               | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Idade = 26                                               | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Idade = 99                                               | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Idade = 100                                              | R$ 1.900,00          | CE01, CE05                         |
+         
+         | CT01 | Sexo = Feminino, Idade < 25, Estado Civil = Solteiro(a)  | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Sexo = Feminino, Idade < 25, Estado Civil = Casado(a)    | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Sexo = Feminino, Idade = 25, Estado Civil = Solteiro(a)  | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Sexo = Feminino, Idade = 25, Estado Civil = Casado(a)    | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Sexo = Feminino, Idade > 25, Estado Civil = Solteiro(a)  | R$ 1.900,00          | CE01, CE05                         |
+         | CT01 | Sexo = Feminino, Idade > 25, Estado Civil = Casado(a)    | R$ 1.900,00          | CE01, CE05                         |
          
          
    4. Em relação aos casos de teste, considere o valor do seguro de R$ 2.000,00 (Dois mil reais). Desta forma, o valor esperado, do resultado do caso de teste, deve ser o valor líquido a ser pago. Ou seja, o prêmio deduzido do valor correspondente ao percentual do desconto obtido pelo cliente.
