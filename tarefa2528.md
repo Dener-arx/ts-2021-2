@@ -23,13 +23,19 @@
       **Casos de Teste**
 
          |  CT  |          Valor de Entrada                                |  Resultado Esperado  |
-         |--|---|---|---|
-         | CT01 | Sexo = Feminino, Idade < 25, Estado Civil = Solteiro(a)  | R$ 1.900,00          |
-         | CT01 | Sexo = Feminino, Idade < 25, Estado Civil = Casado(a)    | R$ 1.900,00          |
+         |--|---|---|
+         | CT01 | Sexo = Feminino, Idade = 24, Estado Civil = Solteiro(a)  | R$ 1.900,00          |
+         | CT01 | Sexo = Feminino, Idade = 24, Estado Civil = Casado(a)    | R$ 1.900,00          |
          | CT01 | Sexo = Feminino, Idade = 25, Estado Civil = Solteiro(a)  | R$ 1.900,00          |
          | CT01 | Sexo = Feminino, Idade = 25, Estado Civil = Casado(a)    | R$ 1.900,00          |
-         | CT01 | Sexo = Feminino, Idade > 25, Estado Civil = Solteiro(a)    | R$ 1.900,00          |
-         | CT01 | Sexo = Feminino, Idade > 25, Estado Civil = Casado(a)    | R$ 1.900,00          |
+         | CT01 | Sexo = Feminino, Idade = 26, Estado Civil = Solteiro(a)  | R$ 1.900,00          |
+         | CT01 | Sexo = Feminino, Idade = 26, Estado Civil = Casado(a)    | R$ 1.900,00          |
+         | CT01 | Sexo = Masculino, Idade = 24, Estado Civil = Solteiro(a) | R$ 1.900,00          |
+         | CT01 | Sexo = Masculino, Idade = 24, Estado Civil = Casado(a)   | R$ 1.900,00          |
+         | CT01 | Sexo = Masculino, Idade = 25, Estado Civil = Solteiro(a) | R$ 1.900,00          |
+         | CT01 | Sexo = Masculino, Idade = 25, Estado Civil = Casado(a)   | R$ 1.900,00          |
+         | CT01 | Sexo = Masculino, Idade = 26, Estado Civil = Solteiro(a) | R$ 1.900,00          |
+         | CT01 | Sexo = Masculino, Idade = 26, Estado Civil = Casado(a)   | R$ 1.900,00          |
          
          
    4. Em relação aos casos de teste, considere o valor do seguro de R$ 2.000,00 (Dois mil reais). Desta forma, o valor esperado, do resultado do caso de teste, deve ser o valor líquido a ser pago. Ou seja, o prêmio deduzido do valor correspondente ao percentual do desconto obtido pelo cliente.
