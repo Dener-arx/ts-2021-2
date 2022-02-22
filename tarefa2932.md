@@ -1,6 +1,6 @@
 ## Tarefa 006 - 15/02/2022 - Grafo de Fluxo de Controle
 
-1. Considere o fragmento de código implementado na Linguagem de Programação Java.
+#### 1. Considere o fragmento de código implementado na Linguagem de Programação Java.
 
 ~~~java
 
@@ -27,12 +27,33 @@ public class Avaliacao {
 18 }
 ~~~
 
-2. Pede-se:
-   1. Desenhar o **Grafo do Fluxo de Controle**. Pode-se anexar a imagem, aqui neste arquivo.
+#### 2. Pede-se:
+   #### 1. Desenhar o **Grafo do Fluxo de Controle**. Pode-se anexar a imagem, aqui neste arquivo.
    >![Image](https://github.com/Dener-arx/ts-2021-2/blob/main/images/Grafo%20de%20Fluxo%20de%20Controle.png)
-   2. Calcular a complexidade ciclomática do código. Exemplo de coo calcular pode ser obtido no [link](https://www.treinaweb.com.br/blog/complexidade-ciclomatica-analise-estatica-e-refatoracao)
-   3. Definir quantos caminhos de execução existem;
-   4. Definir os casos de teste necessários para se percorrer todos estes caminhos. Cada caso de teste deve ter o valor correspondente para cada variável de entrada e o valor esperado.
+   #### 2. Calcular a complexidade ciclomática do código. Exemplo de coo calcular pode ser obtido no [link](https://www.treinaweb.com.br/blog/complexidade-ciclomatica-analise-estatica-e-refatoracao)
+
+      **V(G) = R** 
+      Número de Regiões = 5 
+    
+      **V(G) = E – N + 2** 
+      (Arestas = 19, Nós = 16)
+      19-16+2 = 5 
+    
+      **V(G = P + 1** 
+      Nós-Predicados = 5
+
+   #### 3. Definir quantos caminhos de execução existem;
+
+      **Existem 5 Caminhos de Execução.** 
+      Caminho 1 - Valores Inválidos 
+      Caminho 2 - Reprovado por Falta 
+      Caminho 3 - Reprovado por Média 
+      Caminho 4 - Prova Extra 
+      Caminho 5 - Aprovado
+
+   #### 4. Definir os casos de teste necessários para se percorrer todos estes caminhos. Cada caso de teste deve ter o valor correspondente para cada variável de entrada e o valor esperado.
+
+
 
 INSTRUÇÕES:
 1. Tipo: Tarefa Individual;
