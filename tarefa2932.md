@@ -61,9 +61,3 @@ public class Avaliacao {
 | CT04 | nota1 = 3, nota2 = 6, faltas = 4, cargaHoraria = 64   | Prova Extra          |
 | CT05 | nota1 = 8, nota2 = 9, faltas = 0, cargaHoraria = 64   | Aprovado             |
 
-
-INSTRUÇÕES:
-1. Tipo: Tarefa Individual;
-2. Local de Entrega: _branch main/master_ do repositório pessoal do aluno, criado para a manutenção do controle de versão dos artefatos da disciplina. O arquivo a ser entregue, pode ser este mesmo, editado com as respostas das questões solicitadas.
-3. Data da Entrega: 21/02/2021, as 23h59min.
-4. Critério de Aceitação: arquivo entregue, conforme solicitado.
