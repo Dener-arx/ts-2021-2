@@ -32,19 +32,19 @@ public class Avaliacao {
    >![Image](https://github.com/Dener-arx/ts-2021-2/blob/main/images/Grafo%20de%20Fluxo%20de%20Controle.png)
    #### 2. Calcular a complexidade ciclomática do código. Exemplo de coo calcular pode ser obtido no [link](https://www.treinaweb.com.br/blog/complexidade-ciclomatica-analise-estatica-e-refatoracao)
 
-      **V(G) = R** 
+      V(G) = R
       Número de Regiões = 5 
     
-      **V(G) = E – N + 2** 
+      V(G) = E – N + 2
       (Arestas = 19, Nós = 16)
       19-16+2 = 5 
     
-      **V(G = P + 1** 
+      V(G = P + 1
       Nós-Predicados = 5
 
    #### 3. Definir quantos caminhos de execução existem;
 
-      **Existem 5 Caminhos de Execução.** 
+      Existem 5 Caminhos de Execução.
       1 - Valores Inválidos 
       2 - Reprovado por Falta 
       3 - Reprovado por Média 
