@@ -9,46 +9,54 @@
 #### <p style="text-align: center;">Gilmar Ferreira Arantes</p>
 ####  <p style="text-align: center;"> Prova P1 - 16/02/2022</p>
 
-Matrícula: 201802760 </br>
-Nome: Dener Pereira Barbosa </br>
+**Matrícula:** 201802760 </br>
+**Nome:** Dener Pereira Barbosa </br>
 
 1. Quanto ao objetivo do Teste de Software, responda as duas questões seguintes:
-   1. (**0,5 ponto**) Qual o objetivo primário da atividade de teste de software?
+   1.1 (**0,5 ponto**) Qual o objetivo primário da atividade de teste de software?
 
     O objetivo primário da atividade de teste de software é encontrar defeitos no software.
 
-   2. (**0,5 ponto**) O que acontece, quando não se atinge este objetivo primário?
+   1.2 (**0,5 ponto**) O que acontece, quando não se atinge este objetivo primário?
 
+    Caso um teste de software não revele nenhum defeito ou erro, podemos considerar dois cenários. 
+    1 - O teste não foi realizado corretamente.
+    2 - O software não tem nenhum defeito. 
+    Entretanto, considerando a baixa possibilidade de um software sem nenhum defeito, especialmente para softwares grandes,
+    podemos somente dizer que ele não tem defeitos que interferem em seu funcionamento.
     
-    
-    Caso um teste de software não revele nenhum defeito ou erro, pode-se dizer que ou esse software não tem nenhuma defeito, ou os testes não foram feitos corretamente.
-    
-
 2. (**1,0 ponto**) Explique o que é o teste exaustivo e porque sua execução não é possível.
 
-   Um teste exaustivo considera testar todas as possibilidades de entradas do software. 
-   Somente é possivel a execução de testes exaustivos para casos com um número pequeno de entradas, pois quando se tem um 
-   número muito grande de entradas, um teste exaustivo pode tomar muito tempo, até o ponto de não ser possivel realiza-lo.
+    Um teste exaustivo considera testar todas as possibilidades de entradas do software.
+    Somente é possivel a execução de testes exaustivos para casos com um número pequeno de entradas,
+    pois quando se tem um número muito grande de entradas, um teste exaustivo pode tomar muito tempo, 
+    algumas vezes até o ponto de não ser possivel realiza-lo em tempo viavel. 
 
 3. (**1,0 ponto**) Cite pelo menos duas limitações da Técnica de Teste Funcional e duas da Técnica de Teste Estrutural.
 
-   
+    Teste Funcional - Não se sabe como o software está 
 
 4. (**1,0 ponto**) Descreva pelo menos um dos quatro níveis de teste constantes da literatura especializada.
 
 
+
 5. (**1.0 ponto**)Descreva qual o propósito do critério de teste funcional Particionamento por Classes de Equivlência.
 
-
+    Ao      podemos separar as póssiveis entradas de um software em Válidas ou Inválidas, facilitando a formulação de casos de teste.
 
 6. (**1.00 ponto**) Existe algum tipo de hierarquia em relação aos critérios de teste estrutural, todos os nós, todos os arcos e todos os caminhos? Se sim, explique-a, considerando a perspectiva dos níveis de cobertura desejados.
 
-
-
+    Para os critérios de teste estrutural 'todos os nós', 'todos os arcos' e 'todos os caminhos' existe uma hierarquia quanto ao grau de cobertura dos mesmos.
+    A cobertura de casos de teste é dada por niveis, onde quanto maior o nivel, maior será a 
+    Nivel 1 - Todos os nós - Este nivel especifica que os testes devem passar por todos os nós no Grafo de Fluxo de Controle.  
+    Nivel 2 - Todos os arcos - Este nivel especifica que os testes devem passar por todas as Arestas no GFC.
+    Nivel 3 - Todos os caminhos - Este nivel especifica que os testes devem passar por todas as possiveis combinações de arestas no GFC.
+       
 7. Considere a especificação, a seguir, de um hipotético programa que objtiva a classificação de um triângulo, a partir dos valores informados para os seus três lados.
 
-   a) Dado um triângulo cujos segmentos medem A, B e C, que são números inteiros positivos na faixa de 0 a 100. Esse triângulo somente existirá se: (A + B < C) ou (A + C < B) ou (B + C < A).
-   b) Quanto às medidas dos seus lados o triângulo, poderá ser classicado em:
+a) Dado um triângulo cujos segmentos medem A, B e C, que são números inteiros positivos na faixa de 0 a 100. Esse triângulo somente existirá se: (A + B < C) ou (A + C < B) ou (B + C < A).
+   
+b) Quanto às medidas dos seus lados o triângulo, poderá ser classicado em:
          • Isósceles = quando possui dois lados com a mesma medida;
          • Escaleno = quando todos os seus lados têm medidas diferentes;
          • Equilátero = quando todos os lados tem a mesma medida;
