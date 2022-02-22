@@ -53,14 +53,14 @@ public class Avaliacao {
 
    #### 4. Definir os casos de teste necessários para se percorrer todos estes caminhos. Cada caso de teste deve ter o valor correspondente para cada variável de entrada e o valor esperado.
 
-         |  CT  |          Valor de Entrada                             |  Resultado Esperado  |
-         |--|--|--|
-         | CT01 | nota1 = -7, nota2 = 5, faltas = 4, cargaHoraria = 64  | Valores Inválidos    |
-         | CT02 | nota1 =  8, nota2 = 8, faltas = 28, cargaHoraria = 64 | Reprovado por Falta  |
-         | CT03 | nota1 = 2, nota2 = 3, faltas = 4, cargaHoraria = 64   | Reprovado por Média  |
-         | CT04 | nota1 = 3, nota2 = 6, faltas = 4, cargaHoraria = 64   | Prova Extra          |
-         | CT05 | nota1 = 8, nota2 = 9, faltas = 0, cargaHoraria = 64   | Aprovado             |
-         
+|  CT  |          Valor de Entrada                             |  Resultado Esperado  |
+|---|---|---|
+| CT01 | nota1 = -7, nota2 = 5, faltas = 4, cargaHoraria = 64  | Valores Inválidos    |
+| CT02 | nota1 = 8, nota2 = 8, faltas = 28, cargaHoraria = 64  | Reprovado por Falta  |
+| CT03 | nota1 = 2, nota2 = 3, faltas = 4, cargaHoraria = 64   | Reprovado por Média  |
+| CT04 | nota1 = 3, nota2 = 6, faltas = 4, cargaHoraria = 64   | Prova Extra          |
+| CT05 | nota1 = 8, nota2 = 9, faltas = 0, cargaHoraria = 64   | Aprovado             |
+
 
 INSTRUÇÕES:
 1. Tipo: Tarefa Individual;
