@@ -14,12 +14,37 @@ Nome: Dener Pereira Barbosa </br>
 
 1. Quanto ao objetivo do Teste de Software, responda as duas questões seguintes:
    1. (**0,5 ponto**) Qual o objetivo primário da atividade de teste de software?
+
+    O objetivo primário da atividade de teste de software é encontrar defeitos no software.
+
    2. (**0,5 ponto**) O que acontece, quando não se atinge este objetivo primário?
+
+    
+    
+    Caso um teste de software não revele nenhum defeito ou erro, pode-se dizer que ou esse software não tem nenhuma defeito, ou os testes não foram feitos corretamente.
+    
+
 2. (**1,0 ponto**) Explique o que é o teste exaustivo e porque sua execução não é possível.
+
+   Um teste exaustivo considera testar todas as possibilidades de entradas do software. 
+   Somente é possivel a execução de testes exaustivos para casos com um número pequeno de entradas, pois quando se tem um 
+   número muito grande de entradas, um teste exaustivo pode tomar muito tempo, até o ponto de não ser possivel realiza-lo.
+
 3. (**1,0 ponto**) Cite pelo menos duas limitações da Técnica de Teste Funcional e duas da Técnica de Teste Estrutural.
+
+   
+
 4. (**1,0 ponto**) Descreva pelo menos um dos quatro níveis de teste constantes da literatura especializada.
+
+
 5. (**1.0 ponto**)Descreva qual o propósito do critério de teste funcional Particionamento por Classes de Equivlência.
+
+
+
 6. (**1.00 ponto**) Existe algum tipo de hierarquia em relação aos critérios de teste estrutural, todos os nós, todos os arcos e todos os caminhos? Se sim, explique-a, considerando a perspectiva dos níveis de cobertura desejados.
+
+
+
 7. Considere a especificação, a seguir, de um hipotético programa que objtiva a classificação de um triângulo, a partir dos valores informados para os seus três lados.
 
    a) Dado um triângulo cujos segmentos medem A, B e C, que são números inteiros positivos na faixa de 0 a 100. Esse triângulo somente existirá se: (A + B < C) ou (A + C < B) ou (B + C < A).
