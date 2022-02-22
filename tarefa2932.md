@@ -29,6 +29,7 @@ public class Avaliacao {
 
 2. Pede-se:
    1. Desenhar o **Grafo do Fluxo de Controle**. Pode-se anexar a imagem, aqui neste arquivo.
+   >![Image](https://github.com/Dener-arx/ts-2021-2/blob/main/images/Grafo%20de%20Fluxo%20de%20Controle.png)
    2. Calcular a complexidade ciclomática do código. Exemplo de coo calcular pode ser obtido no [link](https://www.treinaweb.com.br/blog/complexidade-ciclomatica-analise-estatica-e-refatoracao)
    3. Definir quantos caminhos de execução existem;
    4. Definir os casos de teste necessários para se percorrer todos estes caminhos. Cada caso de teste deve ter o valor correspondente para cada variável de entrada e o valor esperado.
