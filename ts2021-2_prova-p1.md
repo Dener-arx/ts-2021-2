@@ -9,8 +9,8 @@
 #### <p style="text-align: center;">Gilmar Ferreira Arantes</p>
 ####  <p style="text-align: center;"> Prova P1 - 16/02/2022</p>
 
-Matrícula:
-Nome:
+Matrícula: 201802760 </br>
+Nome: Dener Pereira Barbosa </br>
 
 1. Quanto ao objetivo do Teste de Software, responda as duas questões seguintes:
    1. (**0,5 ponto**) Qual o objetivo primário da atividade de teste de software?
