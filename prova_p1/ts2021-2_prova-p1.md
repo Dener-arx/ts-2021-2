@@ -82,10 +82,10 @@ b) Quanto às medidas dos seus lados o triângulo, poderá ser classicado em:
 ##### 7.2 (**2.0 pontos**) Criar os conjunto de casos de teste necessários para a cobertura das combinações constantes da tabela de decisão, seguindo o seguinte padrão:
 |CT |Lado A|Lado B|Lado C|Resultado|
 |---|---|---|---|---|
-|CT01| 5  | 5  | 5  | Equilatero |
-|CT01| 5  | 5  | 3  | Isoceles   |
-|CT01| 8  | 4  | 8  | Isoceles   |
-|CT01| 6  | 6  | 2  | Isoceles   |
+|CT01| 5  | 5  | 5  | Equilátero |
+|CT01| 5  | 5  | 3  | Isóceles   |
+|CT01| 8  | 4  | 8  | Isóceles   |
+|CT01| 6  | 6  | 2  | Isóceles   |
 |CT01| 3  | 4  | 5  | Escaleno   |
 
 
