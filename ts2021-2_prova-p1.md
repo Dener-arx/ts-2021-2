@@ -38,7 +38,7 @@
 
 4. (**1,0 ponto**) Descreva pelo menos um dos quatro níveis de teste constantes da literatura especializada.
 
-
+    
 
 5. (**1.0 ponto**)Descreva qual o propósito do critério de teste funcional Particionamento por Classes de Equivlência.
 
@@ -66,10 +66,18 @@ b) Quanto às medidas dos seus lados o triângulo, poderá ser classicado em:
 
 7.1 (**2.0 pontos**) Definir uma tabela de decisão para o teste tanto da existência do triângulo, quanto para a definição do seu tipo. Consulte exemplo de tabela de decisão na tarefa 005.
 
+<div align=center>
+  <img src="Tabela de Decisao.png">
+</div>
+
+
+
 7.2 (**2.0 pontos**) Criar os conjunto de casos de teste necessários para a cobertura das combinações constantes da tabela de decisão, seguindo o seguinte padrão:
 |CT|Lado A|Lado B|Lado C|Resultado|
 |---|---|---|---|---|
 |   |   |   |   |   |
+
+
 
 
 INSTRUÇÕES:
