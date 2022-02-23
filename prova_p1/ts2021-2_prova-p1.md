@@ -34,12 +34,13 @@
 
 #### 3. (**1,0 ponto**) Cite pelo menos duas limitações da Técnica de Teste Funcional e duas da Técnica de Teste Estrutural.
 
-    Teste Funcional - Não se tem conhecimento da estrutura interna do software.
+    Teste Funcional - Não se tem conhecimento da estrutura interna do software, somente sabendo as entradas e inferindo as saidas.
+    Tste Estrutural - 
 
 #### 4. (**1,0 ponto**) Descreva pelo menos um dos quatro níveis de teste constantes da literatura especializada.
 
     O teste de aceitação é elaborado de acordo com a especificação dos requisitos do software, e é relevante
-    para verificar se o software está de acordo com o desejado.
+    para verificar se o software está de acordo com o desejado pelo cliente.
 
 #### 5. (**1.0 ponto**)Descreva qual o propósito do critério de teste funcional Particionamento por Classes de Equivlência.
 
@@ -82,11 +83,14 @@ b) Quanto às medidas dos seus lados o triângulo, poderá ser classicado em:
 ##### 7.2 (**2.0 pontos**) Criar os conjunto de casos de teste necessários para a cobertura das combinações constantes da tabela de decisão, seguindo o seguinte padrão:
 |CT |Lado A|Lado B|Lado C|Resultado|
 |---|---|---|---|---|
-|CT01| 5  | 5  | 5  | Equilátero |
-|CT01| 5  | 5  | 3  | Isóceles   |
-|CT01| 8  | 4  | 8  | Isóceles   |
-|CT01| 6  | 6  | 2  | Isóceles   |
-|CT01| 3  | 4  | 5  | Escaleno   |
+|CT01| 1  | 2  | 4  | Não Existe |
+|CT02| 2  | 9  | 4  | Não Existe |
+|CT03| 8  | 2  | 3  | Não Existe |
+|CT04| 5  | 5  | 5  | Equilátero |
+|CT05| 5  | 5  | 3  | Isóceles   |
+|CT06| 8  | 4  | 8  | Isóceles   |
+|CT07| 6  | 6  | 2  | Isóceles   |
+|CT08| 3  | 4  | 5  | Escaleno   |
 
 
 
