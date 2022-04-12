@@ -67,7 +67,7 @@ Nome: Dener Pereira Barbosa
 | CE01 | numero = 6 digitos                           | V |
 | CE02 | numero != 6 digitos                          | I |
 | CE03 | numero com caractere não númerico            | I |
-| CE04 | tipo = Cheque || tipo = Poupança             | V |
+| CE04 | tipo = Cheque 'ou' tipo = Poupança           | V |
 | CE05 | tipo != Cheque && tipo != Poupança           | I |
 | CE06 | tipo = Cheque && limite = cheque especial    | V |
 | CE07 | tipo = Cheque && limite != cheque especial   | I |
@@ -78,15 +78,18 @@ Nome: Dener Pereira Barbosa
    **Banco**
    |CT|Valores de Entrada|Resultado esperado|
    |---|---|---|
-   | CT01 | numero = 0                                   |  |
-   | CT02 | numero > 0                                   |  |
-   | CT03 | numero < tres digitos                        |  |
-   | CT04 | numero = tres digitos                        |  |
-   | CT05 | numero > tres digitos                        |  |
-   | CT06 | nome < 5 caracteres                          |  |
-   | CT07 | nome = 5 caracteres                          |  |
-   | CT08 | nome = 100 caracteres                        |  |
-   | CT09 | nome > 100 caracteres                        |  |
+   | CT01 | numero = 111                            | OK |
+   | CT02 | numero = -111                           | Valor Invalido |
+   | CT03 | numero = 22                             | Valor Invalido |
+   | CT04 | numero = 2222                           | Valor Invalido |
+   | CT05 | nome = 'abc'                            | Valor Invalido |
+   | CT06 | nome = 'abcdefgh'                       | OK |
+   | CT07 | nome = '' string +100 caracteres        | Valor Invalido |
+   
+   **Agencia**
+   |CT|Valores de Entrada|Resultado esperado|
+   |---|---|---|
+   | CT01 | numero = 111                            | OK |
    
    #### 3. (3.0 Pontos) Implementar (na linguagem de programação java) as classes para o teste da criação dos objetos e das movimentações financeiras envolvendo bancos e agências e contas.
 
