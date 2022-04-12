@@ -9,23 +9,56 @@
 #### <p style="text-align: center;">Gilmar Ferreira Arantes</p>
 ####  <p style="text-align: center;"> Prova P2 - 12/04/2022</p>
 
-Matrícula:
+Matrícula: 201802760
 
-Nome:
+Nome: Dener Pereira Barbosa
 
 
-1. Quanto ao Processo de Teste de Software, responda as duas questões seguintes:
-   1. (**0,5 ponto**) Defina os seguintes conceitos Processo de Teste de Software, Projeto de Teste de Software e Plano de Teste de Sofware.
-   2. (**0,5 ponto**) Descreva o relacionamento existente entre estes conceitos.
-2. (**1,0 pontos**) Descreva as vantagens para a equipe de desenvolvimento ao se adotar um processo de teste ágil.
-3. (**1,0 ponto**) Cite pelo menos três características do Teste Exploratório.
-4. Considere os arquivos .java (Banco.java, Agencia.java, Conta.java e BankValidator.java). Nos próprios arquivos .java estão definidas as regras para cadastramento de cada um deles (Banco, Agencia e Conta). Desta forma, pede-se:
-   1. (2.0 Pontos) Definir os cenários de teste suficientes para testar o cadastro e movimentações financeiras envolvendo bancos, agências e contas, conforme especificado. Para cada cenário definir os critérios de teste adequados à definição dos seus casos de teste.
-   2. (2.0) Definir os casos de teste suficientes para a cobertura do teste de cada um dos cenários definidos. Documentar os casos de teste no seguinte padrão:
+### 1. Quanto ao Processo de Teste de Software, responda as duas questões seguintes:
+   #### 1. (**0,5 ponto**) Defina os seguintes conceitos Processo de Teste de Software, Projeto de Teste de Software e Plano de Teste de Sofware.
+   
+   Processo de Teste de Software: Define etapas, artefatos a serem entregues, 
+   Projeto de Teste de Software: Estabelece metodos de teste/ resultados
+   Plano de Teste de Software: Prazo, Custo, Ferramentas, etc.
+   
+   #### 2. (**0,5 ponto**) Descreva o relacionamento existente entre estes conceitos.
+   
+   O Processo de Teste envolve tudo relacionado aos testes. O plano de teste é desenvolvido durante uma das etapas do processo de teste, Planejamento de Teste. 
+   O Projeto de teste é uma etapa posterior ao planejamento, onde testes são elaborados seguindo especificações e limitações estabelecidas durante o planejamento.
+    
+### 2. (**1,0 pontos**) Descreva as vantagens para a equipe de desenvolvimento ao se adotar um processo de teste ágil.
+
+  
+
+### 3. (**1,0 ponto**) Cite pelo menos três características do Teste Exploratório.
+
+  No teste exploratório os testadores tentam agir como usuários de forma a descorbir possiveis problemas no sistema.
+
+### 4. Considere os arquivos .java (Banco.java, Agencia.java, Conta.java e BankValidator.java). Nos próprios arquivos .java estão definidas as regras para cadastramento de cada um deles (Banco, Agencia e Conta). Desta forma, pede-se:
+   #### 1. (2.0 Pontos) Definir os cenários de teste suficientes para testar o cadastro e movimentações financeiras envolvendo bancos, agências e contas, conforme especificado. Para cada cenário definir os critérios de teste adequados à definição dos seus casos de teste.
+
+**Banco**
+
+numero: maior que 0 e compostos por 3 digitos.
+nome: tamanho entre 5 e 100, somente letras.
+
+
+|  ID  |           Descrição                          | V/I |
+|--|----|---|
+| CE01 | numero=0                                     | I |
+| CE02 | numero>0                                     | V |
+| CE03 | numero < tres digitos                        | I |
+| CE04 | numero = tres digitos                        | V |
+| CE05 | numero > tres digitos                        | I |
+
+
+   
+   
+   #### 2. (2.0) Definir os casos de teste suficientes para a cobertura do teste de cada um dos cenários definidos. Documentar os casos de teste no seguinte padrão:
    |CT|Valores de Entrada|Resultado esperado|
    |---|---|---|
    |||
-   3. (3.0 Pontos) Implementar (na linguagem de programação java) as classes para o teste da criação dos objetos e das movimentações financeiras envolvendo bancos e agências e contas.
+   #### 3. (3.0 Pontos) Implementar (na linguagem de programação java) as classes para o teste da criação dos objetos e das movimentações financeiras envolvendo bancos e agências e contas.
 
 
 INSTRUÇÕES:
