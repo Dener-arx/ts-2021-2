@@ -38,21 +38,47 @@ Nome: Dener Pereira Barbosa
    #### 1. (2.0 Pontos) Definir os cenários de teste suficientes para testar o cadastro e movimentações financeiras envolvendo bancos, agências e contas, conforme especificado. Para cada cenário definir os critérios de teste adequados à definição dos seus casos de teste.
 
 **Banco**
-
-numero: maior que 0 e compostos por 3 digitos.
-nome: tamanho entre 5 e 100, somente letras.
-
-
 |  ID  |           Descrição                          | V/I |
 |--|----|---|
-| CE01 | numero=0                                     | I |
-| CE02 | numero>0                                     | V |
+| CE01 | numero = 0                                   | I |
+| CE02 | numero > 0                                   | V |
 | CE03 | numero < tres digitos                        | I |
 | CE04 | numero = tres digitos                        | V |
 | CE05 | numero > tres digitos                        | I |
+| CE06 | nome < 5 caracteres                          | I |
+| CE07 | nome = 5 caracteres                          | V |
+| CE08 | nome = 100 caracteres                        | V |
+| CE09 | nome > 100 caracteres                        | I |
 
+**Agencia**
+|  ID  |           Descrição                          | V/I |
+|--|----|---|
+| CE01 | numero < 3 digitos                           | I |
+| CE02 | numero = 3 digitos                           | V |
+| CE03 | numero = 5 digitos                           | V |
+| CE04 | numero > 5 digitos                           | I |
+| CE05 | nome < 5 caracteres                          | I |
+| CE06 | nome = 5 caracteres                          | V |
+| CE07 | nome = 100 caracteres                        | V |
+| CE08 | nome > 100 caracteres                        | I |
+| CE09 | cidade < 5 caracteres                        | I |
+| CE10 | cidade = 5 caracteres                        | V |
+| CE11 | cidade = 100 caracteres                      | V |
+| CE12 | cidade > 100 caracteres                      | I |
 
-   
+**Conta**
+|  ID  |           Descrição                          | V/I |
+|--|----|---|
+| CE01 | numero < 6 digitos                           | I |
+| CE02 | numero = 6 digitos                           | V |
+| CE03 | numero > 6 digitos                           | I |
+| CE04 | numero com caractere não númerico            | I |
+| CE05 | tipo = Cheque                                | V |
+| CE06 | tipo = Poupança                              | V |
+| CE07 | tipo != Cheque && tipo != Poupança           | I |
+| CE08 | tipo = Cheque && limite = cheque especial    | V |
+| CE09 | tipo = Cheque && limite != cheque especial   | I |
+| CE10 | tipo = Poupança && limite = cheque especial  | I |
    
    #### 2. (2.0) Definir os casos de teste suficientes para a cobertura do teste de cada um dos cenários definidos. Documentar os casos de teste no seguinte padrão:
    |CT|Valores de Entrada|Resultado esperado|
