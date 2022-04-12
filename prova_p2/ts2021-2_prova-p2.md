@@ -80,8 +80,8 @@ Nome: Dener Pereira Barbosa
    |---|---|---|
    | CT01 | numero = 111                            | OK |
    | CT02 | numero = -111                           | Valor Invalido |
-   | CT03 | numero = 22                             | Valor Invalido |
-   | CT04 | numero = 2222                           | Valor Invalido |
+   | CT03 | numero = 12                             | Valor Invalido |
+   | CT04 | numero = 1234                           | Valor Invalido |
    | CT05 | nome = 'abc'                            | Valor Invalido |
    | CT06 | nome = 'abcdefgh'                       | OK |
    | CT07 | nome = '' string +100 caracteres        | Valor Invalido |
@@ -89,7 +89,29 @@ Nome: Dener Pereira Barbosa
    **Agencia**
    |CT|Valores de Entrada|Resultado esperado|
    |---|---|---|
-   | CT01 | numero = 111                            | OK |
+   | CT01 | numero = 12                            | Valor Invalido |
+   | CT02 | numero = 1234                          | OK |
+   | CT03 | numero = 123456                        | Valor Invalido |
+   | CT04 | nome = 'abc'                           | Valor Invalido |
+   | CT05 | nome = 'abcdefgh'                      | OK |
+   | CT06 | nome = '' string +100 caracteres       | Valor Invalido |
+   | CT07 | cidade = 'abc'                         | Valor Invalido |
+   | CT08 | cidade = 'abcdefgh'                    | OK |
+   | CT09 | cidade = '' string +100 caracteres     | Valor Invalido |
+   
+   **Conta**
+   |CT|Valores de Entrada|Resultado esperado|
+   |---|---|---|
+   | CT01 | numero = 12345                                  | Valor Invalido |
+   | CT02 | numero = 123456                                 | OK |
+   | CT03 | numero = 1234567                                | Valor Invalido |
+   | CT04 | numero = AAAAAA                                 | Valor Invalido |
+   | CT05 | tipo = 'Cheque'                                 | OK |
+   | CT06 | tipo = 'Poupança'                               | OK |
+   | CT07 | tipo = 'Outros'                                 | Valor Invalido |
+   | CT08 | tipo = 'Cheque' && limite = 'cheque especial'   | OK |
+   | CT09 | tipo = 'Cheque' && limite = 'Outros'            | Valor Invalido |
+   | CT10 | tipo = 'Poupança' && limite = 'cheque especial' | Valor Invalido |
    
    #### 3. (3.0 Pontos) Implementar (na linguagem de programação java) as classes para o teste da criação dos objetos e das movimentações financeiras envolvendo bancos e agências e contas.
 
