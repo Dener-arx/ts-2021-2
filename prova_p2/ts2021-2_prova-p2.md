@@ -17,22 +17,28 @@ Nome: Dener Pereira Barbosa
 ### 1. Quanto ao Processo de Teste de Software, responda as duas questões seguintes:
    #### 1. (**0,5 ponto**) Defina os seguintes conceitos Processo de Teste de Software, Projeto de Teste de Software e Plano de Teste de Sofware.
    
-   Processo de Teste de Software: Define etapas, artefatos a serem entregues, 
-   Projeto de Teste de Software: Estabelece metodos de teste/ resultados
-   Plano de Teste de Software: Prazo, Custo, Ferramentas, etc.
-   
+   - **Processo de Teste de Software:** O processo de teste de software estabele em alto nivel como deve ser realizado todo o processo de teste de software, definindo etapas, atividades que compõem cada etapa, bem como artefatos que devem ser entregues ao final de cada atividade.
+   - **Projeto de Teste de Software:** O projeto de teste estabece como os testes em sí devem ser realizados, definindo metodos e estrategias de teste, bem como resultados esperados e aceitaveis. 
+   - **Plano de Teste de Software:** O plano de teste estabelece em um nível mais tecnico como deve ser realizado o processo de teste, definindo o escopo, custos, prazos, ferramentas, equipe e papeis, riscos, entre outras coisas.
+     
    #### 2. (**0,5 ponto**) Descreva o relacionamento existente entre estes conceitos.
    
-   O Processo de Teste envolve tudo relacionado aos testes. O plano de teste é desenvolvido durante uma das etapas do processo de teste, Planejamento de Teste. 
-   O Projeto de teste é uma etapa posterior ao planejamento, onde testes são elaborados seguindo especificações e limitações estabelecidas durante o planejamento.
-    
+   Dentre os tres conceitos, O Processo de Teste é o mais amplo, englobando ambos os outros, que podem ser considerados etapas do mesmo. </br>
+   
+   Enquanto o Processo de Teste pode ser um tipo de guia de como todo o processo de teste deve ser realizado, o Plano de Teste, um artefato obtido da etapa de Planejamneto do Processo de Teste, define especificações, restrições e estimativas concretas para sua implementação, adaptando o processo conforme necessidade da empresa. </br>
+   
+   O Projeto de Teste, por sua vez, é uma etapa posterior ao planejamento, e é responsável pela elaboração dos testes, seguindo as especificações e limitações estabelecidas durante o planejamento. 
+       
 ### 2. (**1,0 pontos**) Descreva as vantagens para a equipe de desenvolvimento ao se adotar um processo de teste ágil.
-
   
+  Um processo de teste agil conta com o envolvimento de um tecnico de QA durante toda a etapa de desenvolvimento do software, o que torna mais fácil a prevenção de erros no software, sendo este um dos 5 principios dos testes ageis, 'Prevenir erros ao inves de encontrar erros.' 
+  Uma outra grande vantagem de testes ageis é a automatização de testes, que torna a execução de testes de regressão muito mais rápidos.
 
 ### 3. (**1,0 ponto**) Cite pelo menos três características do Teste Exploratório.
 
-  No teste exploratório os testadores tentam agir como usuários de forma a descorbir possiveis problemas no sistema.
+  - Testes exploratórios não seguem um plano. O testador tenta agir como se fosse um usuário.
+  - Testes exploratórios são comumente usados quando não se tem a documentação do software, entretanto não tendo a documentação referente as funcionalidades e/ou restrições do software, não se pode garantir uma boa cobertura de testes.
+  - 
 
 ### 4. Considere os arquivos .java (Banco.java, Agencia.java, Conta.java e BankValidator.java). Nos próprios arquivos .java estão definidas as regras para cadastramento de cada um deles (Banco, Agencia e Conta). Desta forma, pede-se:
    #### 1. (2.0 Pontos) Definir os cenários de teste suficientes para testar o cadastro e movimentações financeiras envolvendo bancos, agências e contas, conforme especificado. Para cada cenário definir os critérios de teste adequados à definição dos seus casos de teste.
